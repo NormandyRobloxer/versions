@@ -26,7 +26,7 @@ from kivy.graphics import Color, Rectangle, Ellipse
 import logging
 logging.getLogger("ultralytics").setLevel(logging.ERROR)
 
-CURRENT_VERSION = 2
+CURRENT_VERSION = 1
 
 def show_message(title, message):
     ctypes.windll.user32.MessageBoxW(0, message, title, 0x40)
